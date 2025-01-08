@@ -34,6 +34,121 @@ $(() => {
 	});
 
 
+	var mySwiper = new Swiper('.reviews .swiper', {
+		speed: 17000,
+		slidesPerView: 4,
+		spaceBetween: 48,
+		loop: true,
+		autoplay: {
+			delay: 0,
+			reverseDirection: true,
+		},
+		breakpoints: {
+			0: {
+				speed: 17000,
+				slidesPerView: 1,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+			576: {
+				speed: 17000,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			768: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			992: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			1600: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			}
+		}
+	});
+
+	var mySwiper3 = new Swiper('.reviews .swiper_mt47', {
+		speed: 17000,
+		slidesPerView: 4,
+		spaceBetween: 48,
+		loop: true,
+		autoplay: {
+			delay: 0,
+			reverseDirection: false,
+		},
+		breakpoints: {
+			0: {
+				speed: 17000,
+				slidesPerView: 1,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+			576: {
+				speed: 17000,
+				slidesPerView: 2,
+				spaceBetween: 20,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			768: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			992: {
+				speed: 17000,
+				slidesPerView: 3,
+				spaceBetween: 40,
+				autoplay: {
+					delay: 0,
+				},
+			},
+
+			1600: {
+				speed: 17000,
+				slidesPerView: 4,
+				spaceBetween: 30,
+				autoplay: {
+					delay: 0,
+				},
+			}
+		}
+	});
+
+
+
+
 	// Показать отзыв
 
 	$('.content_toggle').click(function(e){
