@@ -1,0 +1,14 @@
+@media print, (max-width: 1300px) {
+
+    :root {
+        --font_size_title: 46px;
+        --font_size: 20px;
+    }
+    .header_button {
+        margin-top: 0;
+    }
+    
+
+
+}
+

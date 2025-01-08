@@ -1,0 +1,153 @@
+@media print, (max-width: 1023px) {
+ 
+    :root {
+        --font_size_title: 36px;
+        --font_size: 20px;
+    }
+    .header_top {
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    .header_button {
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    header {
+        padding: 50px 0;
+    }
+    .header_bottom-title {
+        font-size: 48px;
+    }
+    .header_bottom-text,
+    .header_bottom-list li {
+        font-size: 24px;
+    }
+    .text br {
+        display: none;
+    }
+    .problems_item,
+    .problems_item:nth-child(2) {
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .problems_item-text {
+        margin-top: 10px;
+    }
+    .result_wrap, 
+    .offers_wrap {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .result_items, 
+    .offers_items {
+        width: 100%;
+    }
+    .block {
+        margin-top: 70px;
+    }
+    .difference_item, 
+    .need_item,
+    .reviews_item {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .difference_item:nth-child(1) {
+        flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .difference_item-title, 
+    .need_item-title, 
+    .reviews_item-title {
+        margin-top: 20px;
+    }
+    .difference_item-title br, 
+    .need_item-title br, 
+    .reviews_item-title br {
+        display: none;
+    }
+    .difference_item {
+        border-radius: 20px;
+    }
+    .course_wrap {
+        flex-direction: column-reverse;
+    }
+    .course_info {
+        width: 100%;
+    }
+    .title br {
+        display: none;
+    }
+    .audio_wrap {
+        flex-direction: column;
+    }
+    .audio_info {
+        width: 100%;
+    }
+    .trainer_wrap {
+        flex-direction: column-reverse;
+    }
+    .trainer_info {
+        width: 100%;
+    }
+    .difference_item-title, 
+    .need_item-title, 
+    .reviews_item-title {
+        font-size: 24px;
+    }
+    .difference_item-text, 
+    .need_item-text, 
+    .reviews_item-text {
+        font-size: 20px;
+    }
+    .callback_logo {
+        right: 30px;
+        top: 30px;
+        width: 150px;
+        height: 69px;
+    }
+    .callback_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    .callback .block_head {
+        width: calc(100% - 180px);
+    }
+    .callback .block_head .title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_contact {
+        display: flex;
+        margin-top: 20px;
+    }
+    .footer_contact a + a {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    footer .cont {
+        padding-top: 50px;
+    }
+    footer {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .accordion_item .head {
+        padding: 20px 32px;
+        border-radius: 13px;
+    }
+    .accordion_item .faq_btn span, .accordion_item .faq_btn b {
+        font-size: 52px;
+        top: 4px;
+    }
+  
+  
+    
+
+    
+}
