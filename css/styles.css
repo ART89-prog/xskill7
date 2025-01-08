@@ -685,6 +685,51 @@ span.green {
 
 
 
+.dream {
+    padding: 110px 0;
+}
+.dream_wrap {
+    padding: 40px 40px 40px 70px;
+    background: #363866;
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 49px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.dream .title {
+    text-align: start;
+}
+.dream .text {
+    text-align: start;
+    font-size: 30px;
+}
+.dream_list {
+    padding: 48px 28px 52px 28px;
+    background: linear-gradient(333.55deg, #88CB1A -0.9%, #F2FF5B 99.84%);
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 37.44px;
+    width: calc(100% - 533px);
+    flex-shrink: 0;
+    list-style: none;
+}
+.dream_list li {
+    display: flex;
+    gap: 17px;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 31.2294px;
+    line-height: 38px;
+    color: #33470D;
+}
+.dream_list li .icon {
+    width: 46px;
+    height: 46px;
+}
+.dream_list li + li {
+    margin-top: 34px;
+}
+
 
 
 
