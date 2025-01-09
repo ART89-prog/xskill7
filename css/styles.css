@@ -1216,20 +1216,7 @@ span.green {
 
 
 
-.example {
-}
-.block {
-}
-.cont {
-}
-.head_block {
-}
-.title {
-}
-.green {
-}
-.text {
-}
+
 .example_items {
     display: flex;
     flex-wrap: wrap;
@@ -1280,6 +1267,106 @@ span.green {
 
 
 
+
+.stage_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.stage_items > * {    
+    display: flex;    
+    align-items: flex-start;
+    width: calc(100%/2 - 20px);
+    gap: 29px;
+}
+.stage_item-icon {
+    width: 85px;
+    height: 87px;
+}
+.stage_item-title {
+    font-family: 'Proxima Nova';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 92.8%;
+    margin-bottom: 20px;
+}
+.stage_item-text {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 133.3%;
+    color: #FFFFFF;
+}
+
+
+
+
+.reviews {
+}
+.block {
+}
+.cont {
+}
+.head_block {
+}
+.reviews_title {
+}
+.title {
+}
+.green {
+}
+.reviews_text {
+}
+.text {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+
+
+.swiper-slide {
+    padding: 40px 30px 50px 40px;
+    background: #363866;
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 49px;    
+}
+.reviews_item-text {
+    margin-bottom: 28px;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 133.3%;
+    color: #FFFFFF;
+}
+.reviews_item-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.reviews_item-avatar {
+    width: 56px;
+    height: 56px;
+}
+.reviews_item-name {
+    font-family: 'Proxima Nova';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 133.3%;
+    color: #FFFFFF;
+}
+.reviews_item-post {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 133.3%;
+    color: #AFB1E9;
+}
+.swiper.mt35 {
+    margin-top: 35px;
+}
 
 
 footer {

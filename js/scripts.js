@@ -36,8 +36,8 @@ $(() => {
 
 	var mySwiper = new Swiper('.reviews .swiper', {
 		speed: 17000,
-		slidesPerView: 4,
-		spaceBetween: 48,
+		slidesPerView: 3,
+		spaceBetween: 35,
 		loop: true,
 		autoplay: {
 			delay: 0,
@@ -63,7 +63,7 @@ $(() => {
 
 			768: {
 				speed: 17000,
-				slidesPerView: 3,
+				slidesPerView: 2,
 				spaceBetween: 30,
 				autoplay: {
 					delay: 0,
@@ -73,7 +73,7 @@ $(() => {
 			992: {
 				speed: 17000,
 				slidesPerView: 3,
-				spaceBetween: 40,
+				spaceBetween: 35,
 				autoplay: {
 					delay: 0,
 				},
@@ -81,8 +81,8 @@ $(() => {
 
 			1600: {
 				speed: 17000,
-				slidesPerView: 4,
-				spaceBetween: 30,
+				slidesPerView: 3,
+				spaceBetween: 35,
 				autoplay: {
 					delay: 0,
 				},
@@ -90,13 +90,13 @@ $(() => {
 		}
 	});
 
-	var mySwiper3 = new Swiper('.reviews .swiper_mt47', {
+	var mySwiper3 = new Swiper('.reviews .swiper_mt35', {
 		speed: 17000,
-		slidesPerView: 4,
-		spaceBetween: 48,
+		slidesPerView: 3,
+		spaceBetween: 35,
 		loop: true,
 		autoplay: {
-			delay: 0,
+			delay: 10,
 			reverseDirection: false,
 		},
 		breakpoints: {
@@ -119,7 +119,7 @@ $(() => {
 
 			768: {
 				speed: 17000,
-				slidesPerView: 3,
+				slidesPerView: 2,
 				spaceBetween: 30,
 				autoplay: {
 					delay: 0,
@@ -129,7 +129,7 @@ $(() => {
 			992: {
 				speed: 17000,
 				slidesPerView: 3,
-				spaceBetween: 40,
+				spaceBetween: 35,
 				autoplay: {
 					delay: 0,
 				},
@@ -137,8 +137,8 @@ $(() => {
 
 			1600: {
 				speed: 17000,
-				slidesPerView: 4,
-				spaceBetween: 30,
+				slidesPerView: 3,
+				spaceBetween: 35,
 				autoplay: {
 					delay: 0,
 				},
