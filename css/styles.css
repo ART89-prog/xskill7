@@ -870,16 +870,7 @@ span.green {
 
 
 
-.realization {
-}
-.cont {
-}
-.head_block {
-}
-.title {
-}
-.green {
-}
+
 .realization_items {
     display: flex;
     flex-wrap: wrap;
@@ -919,18 +910,7 @@ span.green {
 
 
 
-.addition {
-}
-.block {
-}
-.cont {
-}
-.head_block {
-}
-.title {
-}
-.green {
-}
+
 .addition_items {
     display: flex;
     gap: 35px;
@@ -998,20 +978,7 @@ span.green {
 
 
 
-.tuning {
-}
-.block {
-}
-.cont {
-}
-.head_block {
-}
-.title {
-}
-.green {
-}
-.text {
-}
+
 .tuning_items {
     display: flex;
     flex-wrap: wrap;
@@ -1048,31 +1015,86 @@ span.green {
 
 
 
+.worker {
+}
+.block {
+}
+.tabs_container {
+}
+.cont {
+}
+.worker .head_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.worker .head_block .title {
+    width: calc(100% - 800px);
+    text-align: start;
+}
+.green {
+}
+.tabs {
+}
+.active {
+}
+.tab_content {
+}
+.level1 {
+}
+.worker_left {
+    padding: 47px 45px 58px;
+    background: linear-gradient(333.55deg, #88CB1A -0.9%, #F2FF5B 99.84%);
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 49px;
+    width: calc(100% - 506px);
+}
+.worker_left-title {
+    font-family: 'Proxima Nova';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 92.8%;
+    color: #2C4208;
+    margin-bottom: 40px;
+}
+.worker_left-list {
+}
+.icon {
+}
+.worker_right {
+}
+.worker_right-title {
+}
+.worker_right-list {
+}
+
+
 .tabs {
     display: flex;
-    margin-bottom: 157px;
-    padding: 10px;
+    padding: 12px;
     border-radius: 112px;
-    background: #f1f1f1;
+    background: #252641;
     justify-content: center;
     align-items: center;
     align-content: stretch;
     flex-wrap: wrap;
+    width: 764px;
 }
 .tabs button {
-    color: #656565;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
+    font-family: 'Proxima Nova';
+    font-weight: 800;
+    font-size: 27.1597px;
+    line-height: 92.8%;
+    color: #FFFFFF;
     display: block;
-    padding: 17px 33px 18px;
-    transition: background .2s linear;
-    letter-spacing: .02em;
+    padding: 26px 52px;
+    transition: background .2s linear;   
     border-radius: 80px;
 }
 .tabs button:hover,
 .tabs button.active {
-    background: #bce01a;
+    color: #405613;
+    background: linear-gradient(333.55deg, #88CB1A -0.9%, #F2FF5B 99.84%);
 }
 .tab_content {
     position: relative;
