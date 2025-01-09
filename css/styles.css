@@ -366,10 +366,9 @@ button {
     overflow: hidden;
     flex-direction: column;
 
-    min-width: 360px;
+    min-width: 375px;
     min-height: 100%;
 
-    background: var(--bg);
 }
 
 
@@ -1840,6 +1839,11 @@ span.green {
     line-height: 115.28%;
     color: #FFFFFF;
 }
+.contact_right-item-photo {
+    width: 253px;
+    height: 197px;
+}
+
 
 
 

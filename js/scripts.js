@@ -20,19 +20,6 @@ $(() => {
 	})
 
 
-	// Скрол к пунктам меню
-	$(".scroll").on("click", function (e) {
-		e.preventDefault();
-		let id = $(this).attr("href");
-
-		$("html, body").animate({
-			scrollTop: $(id).offset().top - 0
-		}, {
-			duration: 400,
-			easing: "swing"
-		});
-	});
-
 
 	var mySwiper = new Swiper('.reviews .swiper', {
 		speed: 17000,
@@ -148,18 +135,6 @@ $(() => {
 
 
 
-
-	// Показать отзыв
-
-	$('.content_toggle').click(function(e){
-		e.preventDefault();
-	    $(this).next().removeClass('hide');
-	    $(this).css({"display":"none"});
-	});
-
-
-
-
 		AOS.init();
 
 
@@ -184,24 +159,6 @@ $(() => {
 
 
 		$('input[type=tel]').inputmask('+7 (999) 999-99-99')
-
-
-		// Аккордион
-		$('body').on('click', '.accordion .accordion_item .head', function (e) {
-			e.preventDefault()
-
-			const $item = $(this).closest('.accordion_item'),
-				$accordion = $(this).closest('.accordion')
-
-			if ($item.hasClass('active')) {
-				$item.removeClass('active').find('.data').slideUp(400)
-			} else {
-				$accordion.find('.accordion_item').removeClass('active')
-				$accordion.find('.data').slideUp(400)
-
-				$item.addClass('active').find('.data').slideDown(400)
-			}
-		})
 
 
 
