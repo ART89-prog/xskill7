@@ -1057,11 +1057,26 @@ span.green {
     color: #2C4208;
     margin-bottom: 40px;
 }
-.worker_left-list {
+.worker_left-list li {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 133.3%;
+    color: #2C4208;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.worker_left-list li + li {
+    margin-top: 34px;
 }
 .icon {
 }
 .worker_right {
+    background: #252641;
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 49.442px;
+    padding: 47px 46px 61px;
 }
 .worker_right-title {
 }
