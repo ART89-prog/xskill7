@@ -190,7 +190,16 @@ input[type=number] {
         url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
         url('../fonts/ProximaNova-Semibold.woff') format('woff'),
         url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe';
+    src: url('../fonts/segoe-print.eot');
+    src: local('segoe-print.ttf'), local('segoe-print.ttf'),
+        url('../fonts/segoe-print.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -1301,31 +1310,6 @@ span.green {
 
 
 
-.reviews {
-}
-.block {
-}
-.cont {
-}
-.head_block {
-}
-.reviews_title {
-}
-.title {
-}
-.green {
-}
-.reviews_text {
-}
-.text {
-}
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-
 
 .swiper-slide {
     padding: 40px 30px 50px 40px;
@@ -1369,6 +1353,274 @@ span.green {
 }
 
 
+
+.demo_wrap {
+    border-radius: 49px;
+    box-shadow: 0px 9.38px 32.31px 0px rgba(0, 0, 0, 0.03);
+    background: linear-gradient(-43.28deg, rgb(136, 203, 26) 2.717%,rgb(242, 255, 91) 99.973%);
+    padding: 75px 64px 98px;
+    position: relative;
+    overflow: hidden;
+}
+.demo .block_head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 35px;
+    width: calc(100% - 315px);
+}
+.demo .block_head .title {
+    font-weight: 800;
+    font-size: 63px;
+    line-height: 93.5%;
+    color: #1f1f1f;
+    margin-bottom: 37px;
+    text-align: start;
+}
+.demo .block_head .text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1f1f1f;
+    margin-bottom: 0px;
+    text-align: start;
+}
+.demo_logo {
+    position: absolute;
+    right: 65px;
+    top: 68px;
+}
+.demo_form .line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.demo_form .line > * {
+    width: calc(100%/4 - 0px);
+}
+.demo_form .line .field input {
+    background: #FFFFFF;
+    border-radius: 41px; 
+    border: none;
+    padding: 0 23px;
+    height: 73px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+    width: 100%;
+}
+.demo_form .line .field input::-webkit-input-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.demo_form .line .field input::-moz-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.demo_form .line .field input:-moz-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.demo_form .line .field input:-ms-input-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.demo_form .line button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 73px;
+    text-align: center;   
+    color: #fff; 
+    padding: 0px 10px;
+    background: #1f1f1f;
+    border-radius: 41px;
+    width: 201px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+
+.demo {
+}
+.cont {
+}
+.demo_wrap {
+}
+.block_head {
+}
+.title {
+}
+.aos-init {
+}
+.aos-animate {
+}
+.text {
+}
+.demo_logo {
+}
+.lozad {
+}
+.loaded {
+}
+.demo_form {
+}
+.line {
+}
+.field {
+}
+.modal_link {
+}
+
+
+
+
+.contact .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact_left {
+    width: calc(100% - 712px);
+}
+.contact_title {
+    text-align: start;
+}
+.contact_text {
+    text-align: start;
+}
+.contact_desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact_desc-text {
+    font-family: 'Segoe';
+    font-family: 'Segoe Print';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; 
+}
+.contact_desc-text span {
+    position: relative;
+}
+.contact_desc-text span:before {
+    position: absolute;
+    content: "";
+    width: 272px;
+    height: 12px;
+    background: url(../images/linie.svg);
+    bottom: -4px;
+    left: 0;
+}
+.contact_left-items {
+    display: flex;
+    row-gap: 11px;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+.contact_left-items > * {
+    width: calc(100%/2 - 13px);
+}
+.contact_left-item-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.65px;
+    line-height: 115.28%;
+    color: #90909E;
+    margin-bottom: 4px;
+}
+.contact_left-item-phone {
+    font-weight: 700;
+    font-size: 28.7079px;
+    line-height: 115.28%;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+.contact_left-item-mail {
+    font-weight: 700;
+    font-size: 28.7079px;
+    line-height: 115.28%;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+.contact_left-item-kace {
+    font-weight: 700;
+    font-size: 28.7079px;
+    line-height: 115.28%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.contact_left-item-site {
+    font-weight: 700;
+    font-size: 28.7079px;
+    line-height: 115.28%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.contact_right {
+    width: 637px;
+}
+.contact_right-items {
+    display: flex;
+    row-gap: 26px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.contact_right-items > * {
+    width: calc(100%/2 - 15px);
+    padding: 25px 25px 30px;
+    background: #252641;
+    border-radius: 37px;
+}
+.contact_right-item-photo img {
+    border-radius: 21px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.contact_right-item-info {
+    margin-top: 20px;
+}
+.contact_right-item-name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.contact_right-item-title {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20.063px;
+    line-height: 115.28%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.contact_right-item-text {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20.063px;
+    line-height: 115.28%;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
 footer {
     padding-bottom: 70px;  
     margin-top: 106px;
@@ -1408,7 +1660,8 @@ footer .cont {
     align-items: center;
 }
 .footer_logo {
-    padding: 0 34px;
+    padding: 0 34px 0 0;
+    margin-right: 37px;
     border-right: 1px solid rgba(255, 255, 255, .3);
 }
 .footer_logo:first-child {
