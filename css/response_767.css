@@ -2,11 +2,70 @@
 
     :root {
         --font_size_title: 30px;
-        --font_size: 19px;
+        --font_size: 18px;
     }
     .dream_wrap .head_block img {
-        width: 35px;
-        height: 80px;
+        width: 80px;
+        height: 35px;
+    }
+    .header_button {
+        display: none;
+    }
+    .header_bottom-text, 
+    .header_bottom-list li {
+        font-size: 22px;
+    }
+    .header_bottom-text br, 
+    .header_bottom-list li br {
+        display: none;
+    }
+    .header_img {
+        top: -33px;
+    }
+    .block {
+        padding: 40px 0;
+    }
+    .head_block {
+        margin-bottom: 20px;
+    }
+    .training_list {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .training_items > * {
+        width: 100%;
+    }
+    .training_item-title, 
+    .training_item-text {
+        font-size: 20px;
+    }
+    .training_problem-title {
+        font-size: 22px;
+    }
+    .training_problem-text {
+        font-size: 20px;
+    }
+    .dream .text {
+        font-size: 20px;
+    }
+    .dream_wrap .head_block .title, 
+    .dream_wrap .head_block .text {
+        width: calc(100% - 60px);
+    }
+    .dream_list li {
+        font-size: 20px;
+    }
+    .dream_list li + li {
+        margin-top: 15px;
+    }
+    .dream_list {
+        padding: 20px;
+    }
+    .callback_btn {
+        width: 100%;
+    }
+    .callback_wrap {
+        flex-wrap: wrap;
     }
 
 
