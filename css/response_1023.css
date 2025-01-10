@@ -36,9 +36,6 @@
     .video {
         padding-bottom: 50px;
     }
-    .problems_item-text {
-        font-size: 24px;
-    }
     .problems_item-number {
         width: 60px;
         height: 60px;
@@ -358,7 +355,17 @@
     }
     .demo_form .line .field {
         margin-bottom: 15px;
+    }    
+    .problems_item-text {
+        font-size: 24px;
     }
+    .problems_item span.green {
+        font-size: 30px;
+    }
+    .problems_item-text span b {
+        font-size: 30px;
+    }
+
 
 
 
