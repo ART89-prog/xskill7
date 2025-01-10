@@ -1915,18 +1915,95 @@ footer {
 
 .modal {
     display: none;
-    max-width: 320px;
     width: 100%;
-    border-radius: 12px;
-    padding: 80px 20px;
-    background: linear-gradient(334deg, #88CB1A -0.9%, #F2FF5B 99.84%);
+    background: #252641;
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03);
+    border-radius: 49px;
+    padding: 90px 65px 75px;
 }
-.modal_text {
-    text-align: center;
-    text-transform: uppercase;
-    color: #1F1F1F;
-    font-size: 40px;
-    font-style: normal;
+.modal .block_head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 35px;
+    width: calc(100% - 315px);
+}
+.modal .block_head .title {
     font-weight: 800;
-    line-height: normal;   
+    font-size: 63px;
+    line-height: 93.5%;
+    color: #1f1f1f;
+    margin-bottom: 37px;
+    text-align: start;
 }
+.modal .block_head .text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1f1f1f;
+    margin-bottom: 0px;
+    text-align: start;
+}
+.modal_logo {
+    position: absolute;
+    right: 65px;
+    top: 68px;
+}
+.modal_form .line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal_form .line > * {
+    width: calc(100%/4 - 0px);
+}
+.modal_form .line .field input {
+    background: #FFFFFF;
+    border-radius: 41px; 
+    border: none;
+    padding: 0 23px;
+    height: 73px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+    width: 100%;
+}
+.modal_form .line .field input::-webkit-input-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.modal_form .line .field input::-moz-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.modal_form .line .field input:-moz-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.modal_form .line .field input:-ms-input-placeholder {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #62732B;
+}
+.modal_form .line button {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 73px;
+    text-align: center;   
+    color: #fff; 
+    padding: 0px 10px;
+    background: #1f1f1f;
+    border-radius: 41px;
+    width: 201px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
