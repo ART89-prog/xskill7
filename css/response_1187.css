@@ -22,6 +22,13 @@
     .addition_item-title {
         margin-left: 0;
     }
+    .addition_item-bottom:before {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+    .worker .head_block .title {
+        margin-bottom: 30px;
+    }
     .tuning_item-text br {
         display: none;
     }
@@ -50,6 +57,9 @@
     .benefits_item ul {
         margin: 0 0px 30px;
     }
+    .swiper-slide {
+        padding: 30px;
+    }
     .contact .cont {
         flex-direction: column;
     }
@@ -64,8 +74,17 @@
         width: 100%;
         height: auto;
     }
-    .swiper-slide {
-        padding: 30px;
+    .videos_item {
+        height: auto;
+    }
+    .videos_item-img {
+        height: 100%;
+    }
+    .contact_right-items > * {
+        padding: 25px;
+    }
+    .realization .head_block {
+        margin-bottom: 50px;
     }
 
 

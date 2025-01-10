@@ -1,7 +1,22 @@
 @media print, (max-width: 1300px) {
 
-
-    
+    .contact_right {
+        width: 550px;
+    }
+    .contact_right-item-photo {
+        width: 100%;
+        height: auto;
+    }
+    .contact_right-items > * {
+        padding: 15px;
+    }
+    .contact_right-item-title,
+    .contact_right-item-text {
+        font-size: 19px;
+    }
+    .contact_left {
+        width: calc(100% - 602px);
+    }
 
 
 }
