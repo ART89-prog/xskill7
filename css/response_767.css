@@ -1,8 +1,8 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size_title: 30px;
-        --font_size: 18px;
+        --font_size_title: 26px;
+        --font_size: 16px;
     }
     .dream_wrap .head_block img {
         width: 80px;
@@ -25,6 +25,10 @@
     .block {
         padding: 40px 0;
     }
+    .callback {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
     .head_block {
         margin-bottom: 20px;
     }
@@ -37,7 +41,11 @@
     }
     .training_item-title, 
     .training_item-text {
-        font-size: 20px;
+        font-size: 14px;
+    }
+    .training_item-icon {
+        width: 46px;
+        height: 46px;
     }
     .training_problem-title {
         font-size: 22px;
@@ -53,20 +61,324 @@
         width: calc(100% - 60px);
     }
     .dream_list li {
-        font-size: 20px;
+        font-size: 16px;
     }
     .dream_list li + li {
         margin-top: 15px;
     }
     .dream_list {
         padding: 20px;
+        border-radius: 20px;
+    }
+    .dream_list li .icon {
+        width: 26px;
+        height: 26px;
     }
     .callback_btn {
         width: 100%;
+        margin-top: 20px;
+        padding: 13px;
+        font-size: 18px;
     }
     .callback_wrap {
         flex-wrap: wrap;
     }
+    .callback_title {
+        font-size: 22px;
+    }
+    .callback_text {
+        font-size: 18px;
+    }
+    .callback2 .callback_title {
+        font-size: 22px;
+    }
+    .callback2 .callback_text {
+        font-size: 18px;
+    }
+    .acquaintance_list li img {
+        width: 26px;
+        height: 26px;
+    }
+    .acquaintance_list li {
+        gap: 9px;
+    }
+    .video {
+        padding-bottom: 40px;
+    }
+    .realization_items > * {
+        width: 100%;
+    }
+    .realization_item-title::before {
+        width: 43px;
+        height: 43px;
+        font-size: 24px;
+    }
+    .realization_item-title {
+        font-size: 20px;
+        padding-left: 59px;
+        margin-top: 20px;
+    }
+    .addition_item-title {
+        font-size: 22px;
+        line-height: 1;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .addition_item ul li:before {
+        width: 12px;
+        height: 12px;
+    }
+    .addition_item ul li + li {
+        margin-top: 14px;
+    }
+    .addition_item ul {
+        margin-bottom: 29px;
+    }
+    .addition_item-bottom {
+        gap: 9px;
+        padding-top: 17px;
+    }
+    .addition_item-bottom img {
+        width: 26px;
+        height: 26px;
+    }
+    .tuning_items > * {
+        width: 100%;
+    }
+    .tuning_item-title {
+        font-size: 18px;
+    }
+    .tuning_item-icon {
+        width: 43px;
+        height: 43px;
+    }
+    .tabs button {
+        padding: 11px 21px;
+        font-size: 12px;
+    }
+    .tabs {
+        padding: 5px;
+    }
+    .worker_left-list li img {
+        width: 26px;
+        height: 26px;
+    }
+    .worker_left-list li {
+        font-size: 16px;
+    }
+    .worker_left-list li + li {
+        margin-top: 12px;
+    }
+    .worker_right-list li img {
+        width: 26px;
+        height: 26px;
+    }
+    .benefits_items > * {
+        padding: 30px 20px;
+    }
+    .benefits_item-title {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .benefits_item ul li img {
+        width: 22px;
+        height: 22px;
+    }
+    .benefits_item ul li {
+        gap: 11px;
+        font-size: 16px;
+    }
+    .benefits_item li + li {
+        margin-top: 20px;
+    }
+    .benefits_item-bottom {
+        padding: 22px 24px 22px 18px;
+        border-radius: 18px;
+        line-height: 1;
+    }
+    .callback2 .callback_icon {
+        width: 46px;
+        height: 46px;
+    }
+    .callback2 .callback_box {
+        gap: 17px;
+    }
+    .callback2 .callback_title {
+        font-size: 23px;
+    }
+    .callback2 .callback_text {
+        font-size: 16px;
+    }
+    .callback2 .callback_btn {
+        padding: 11px;
+        font-size: 16px;
+    }
+    .callback2 {
+        padding-bottom: 40px;
+    }
+    .stage_items > * {
+        width: 100%;
+    }
+    .stage_item-title {
+        font-size: 18px;
+    }
+    .reviews_item-text {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .reviews_item-avatar {
+        width: 37px;
+        height: 37px;
+    }
+    .reviews_item-avatar img {
+        width: 100%;
+        height: 100%;
+    }
+    .reviews_item-name {
+        font-size: 16px;
+    }
+    .reviews_item-post {
+        font-size: 14px;
+    }
+    .price_icon {
+        width: 46px;
+        height: 46px;
+    }
+    .price_wrap {
+        gap: 17px;
+        padding: 17px 16px;
+        border-radius: 20px;
+    }
+    .price_info-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .price_info ul li:before {
+        width: 9px;
+        height: 9px;
+    }
+    .price_info ul li {
+        padding-left: 18px;
+    }
+    .price {
+        padding-bottom: 40px;
+    }
+    .contact_desc {
+        display: none;
+    }
+    .contact_right-items {
+        display: none;
+    }
+    .contact_left-items > * {
+        width: 100%;
+    }
+    .contact_left-item + .contact_left-item {
+        margin-top: 15px;
+    }
+    .contact_text {
+        display: none;
+    }
+    .contact_left-item-label {
+        font-size: 14px;
+    }
+    .contact_left-item-mail,
+    .contact_left-item-phone,
+    .contact_left-item-kace,
+    .contact_left-item-site {
+        font-size: 20px;
+    }
+    .contact_left {
+        margin-bottom: 0;
+    }
+    .callback_box {
+        gap: 17px;
+    }
+    footer {
+        padding-bottom: 66px;
+        padding-top: 2px;
+    }
+    .footer_logo {
+        width: 140px;
+        height: 33px;
+    }
+    .footer_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    .footer_contact {
+        display: none;
+    }
+    .demo_logo {
+        width: 111px;
+        height: 26px;
+    }
+    .demo_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    .demo_wrap {
+        padding: 84px 20px 20px 20px;
+    }
+    .demo .block_head .title {
+        margin-bottom: 12px;
+    }
+    .demo_form .line button {
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+        font-size: 14px;
+    }
+    .demo_form .line .field input {
+        height: 54px;
+        font-size: 14px;
+    }
+    .demo_form .line .field input::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+    .demo_form .line .field input::-moz-placeholder {
+        font-size: 14px;
+    }
+    .demo_form .line .field input:-moz-placeholder {
+        font-size: 14px;
+    }
+    .demo_form .line .field input:-ms-input-placeholder {
+        font-size: 14px;
+    }
+    .checkbox-mob {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;  
+        margin-bottom: 25px;
+    }
+    .checkbox {
+        display: none;  
+    }
+    .checkbox-mob label {
+        display: inline-block;
+        font-family: inherit;
+        position: relative;
+        padding-left: 42px;
+        cursor: pointer;
+    }
+    .checkbox-mob .form_agree-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.2; 
+    }
+    .custom-checkbox + label:before {
+        width: 29px;
+        height: 29px;
+    }
+    .custom-checkbox:checked + label:after {
+        width: 16px;
+        height: 10px;
+        left: 6px;
+        top: 9px;
+    }
+    .demo .block_head .text {
+        font-size: 16px;
+    }
+
 
 
 

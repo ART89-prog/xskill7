@@ -29,6 +29,13 @@
     .block {
         padding: 50px 0;
     }
+    .callback {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .video {
+        padding-bottom: 50px;
+    }
     .problems_item-text {
         font-size: 24px;
     }
@@ -154,12 +161,15 @@
         width: 100%;
         height: 100%;
     }
-    .callback_info {
-        margin-left: 15px;
-    }
     .callback_title {
         font-size: 26px;
         margin-bottom: 4px;
+    }
+    .callback_box {
+        align-items: flex-start;
+    }
+    .callback2 .callback_box {
+        align-items: flex-start;
     }
     .callback_text {
         font-size: 24px;
@@ -277,15 +287,22 @@
         width: 100%;
         height: 100%;
     }
-    .callback2 .callback_info {
-        margin-left: 15px;
-    }
     .callback2 .callback_title {
         font-size: 26px;
         margin-bottom: 4px;
     }
+    .callback2 .callback_info {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .callback2 {
+        padding-bottom: 50px;
+    }
     .callback2 .callback_text {
         font-size: 24px;
+    }
+    .price {
+        padding-bottom: 50px;
     }
     .stage_items {
         gap: 15px;
