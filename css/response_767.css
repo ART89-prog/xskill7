@@ -48,17 +48,29 @@
         height: 46px;
     }
     .training_problem-title {
-        font-size: 22px;
+        font-size: 14px;
     }
     .training_problem-text {
-        font-size: 20px;
+        font-size: 12px;
     }
     .dream .text {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .callback_icon {
+        width: 46px;
+        height: 46px;
+    }
+    .training_items {
+        gap: 15px;
+        margin-bottom: 15px;
     }
     .dream_wrap .head_block .title, 
     .dream_wrap .head_block .text {
         width: calc(100% - 60px);
+    }
+    .training_problem-icon {
+        width: 46px;
+        height: 46px;
     }
     .dream_list li {
         font-size: 16px;
@@ -84,10 +96,14 @@
         flex-wrap: wrap;
     }
     .callback_title {
-        font-size: 22px;
+        font-size: 23px;
+    }
+    .videos_item:before {
+        width: 61px;
+        height: 61px;
     }
     .callback_text {
-        font-size: 18px;
+        font-size: 16px;
     }
     .callback2 .callback_title {
         font-size: 22px;
