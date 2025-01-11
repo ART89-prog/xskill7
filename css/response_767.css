@@ -211,6 +211,7 @@
         padding: 22px 24px 22px 18px;
         border-radius: 18px;
         line-height: 1;
+        align-items: center;
     }
     .callback2 .callback_icon {
         width: 46px;
@@ -393,6 +394,36 @@
     }
     .demo .block_head .text {
         font-size: 16px;
+    }
+    .modal_form .line button {
+        width: 100%;
+    }
+    .fancybox__content>.carousel__button.is-close {
+        top: 12px;
+        right: 12px;
+    }
+    .problems_item:nth-child(1) {
+        flex: 1 1 calc(100%);
+    }
+    .dream_wrap {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .benefits_item-bottom img {
+        width: 24px;
+        height: 24px;
+    }
+    .example_item-btn {
+        font-size: 14px;
+    }
+    .example_item-text {
+        font-size: 16px;
+    }
+    .example {
+        display: none;
+    }
+    .example.example_mob {
+        display: block;
     }
 
 

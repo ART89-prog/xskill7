@@ -365,6 +365,115 @@
     .problems_item-text span b {
         font-size: 30px;
     }
+    .modal_form .line {
+        flex-direction: column;
+    }
+    .fancybox__slide {
+        padding: 40px 20px;
+    }
+    .modal_logo {
+        position: absolute;
+        right: auto;
+        top: 23px;
+        width: 111px;
+        height: 26px;
+    }
+    .modal {
+        padding: 84px 20px 28px;
+        border-radius: 20px;
+    }
+    .modal .block_head .title {
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+    .modal .block_head .text {
+        font-size: 16px;
+    }
+    .modal .block_head {
+        width: 100%;
+    }
+    .modal_form .line > * {
+        width: 100%;
+    }
+    .modal_form .line {
+        gap: 15px;
+    }
+    .modal_form .line .field input {
+        height: 54px;
+        font-size: 14px;
+    }
+    .modal .checkbox-mob {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;  
+        margin-bottom: 25px;
+    }
+    .modal .checkbox {
+        display: none;  
+    }
+    .modal .checkbox-mob label {
+        display: inline-block;
+        font-family: inherit;
+        position: relative;
+        padding-left: 42px;
+        cursor: pointer;
+    }
+    .modal .checkbox-mob .form_agree-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.2; 
+    }
+    .modal .custom-checkbox + label:before {
+        width: 29px;
+        height: 29px;
+        top: -9px;
+    }
+    .modal .custom-checkbox:checked + label:after {
+        width: 16px;
+        height: 10px;
+        left: 6px;
+        top: 0px;
+    }
+    .modal_form .line .field input::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+    .modal_form .line .field input::-moz-placeholder {
+        font-size: 14px;
+    }
+    .modal_form .line .field input:-moz-placeholder {
+        font-size: 14px;
+    }
+    .modal_form .line .field input:-ms-input-placeholder {
+        font-size: 14px;
+    }
+    .modal_form .line button {
+        font-size: 14px;
+        line-height: 55px;
+        width: 301px;
+        height: 55px;
+    }
+    .example_items {
+        gap: 15px;
+    }
+    .example_item-info {
+        padding: 18px 18px 22px;
+    }
+    .example_item-text {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .example_items > * {
+        border-radius: 20px;
+        width: calc(100% / 3 - 10px);
+    }
+    .example_item-photo img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .example_item-btn {
+        font-size: 16px;
+    }
 
 
 
