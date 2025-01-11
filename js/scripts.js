@@ -27,7 +27,7 @@ $(() => {
 		spaceBetween: 35,
 		loop: true,
 		autoplay: {
-			delay: 0,
+			delay: 10,
 			reverseDirection: true,
 		},
 		breakpoints: {
@@ -128,6 +128,7 @@ $(() => {
 				spaceBetween: 35,
 				autoplay: {
 					delay: 0,
+					reverseDirection: false
 				},
 			}
 		}
