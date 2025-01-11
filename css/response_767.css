@@ -425,6 +425,9 @@
     .example.example_mob {
         display: block;
     }
+    .example_mob .example_item-photo img {
+        height: auto;
+    }
 
 
 

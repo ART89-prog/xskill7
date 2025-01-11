@@ -79,6 +79,9 @@
     .problems_item span.green {
         font-size: 24px;
     }
+    .example_mob .tabs button {
+        padding: 11px 18px;
+    }
 
 
 
