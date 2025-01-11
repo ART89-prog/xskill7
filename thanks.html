@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Адаптирование страницы для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Запрет распознования номера телефона -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+	<!-- Заголовок страницы -->
+	<title>Xskill</title>
+
+	<!-- Подключение шрифтов -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+
+	<!-- Данное значение часто используют(использовали) поисковые системы -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Изменение цвета панели моб. браузера -->
+	<meta name="msapplication-TileColor" content="#DE041D">
+	<meta name="theme-color" content="#DE041D">
+
+
+	<!-- Подключение файлов стилей -->
+	<link rel="stylesheet" href="css/fancybox.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/swiper.css">
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/response_1300.css" media="print, (max-width: 1300px)">
+	<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
+	<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+	<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+	<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="main">
+			<header class="bg1">
+				<div class="cont">
+					<div class="header_top">
+						<div class="header_logos">							
+							<a href="index.html" class="header_logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+							<a href="index.html" class="header_logo">
+								<img src="images/logo3.png" alt="">
+							</a>			
+						</div>
+						<a href="#" data-content="#modal" class="header_button modal_link">Связаться с нами</a>
+					</div>	
+				</div>						
+			</header>
+
+
+			<section class="thanks">
+				<div class="cont">
+					<div class="thanks_wrap">
+						<div class="thanks_icon">
+							<img src="images/thanks.svg" alt="">
+						</div>
+						<div class="thanks_title"><span class="green">Спасибо</span> за заявку!</div>
+						<div class="thanks_text">Наш менеджер свяжется с вами в ближайшее время! Обсудим с вами<br> <span class="green">детали внедрения платформы</span> в вашу компанию</div>
+						<a href="index.html" class="header_bottom-link">Вернуться назад</a>
+					</div>
+				</div>
+			</section>
+
+			
+
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более
+			современный.
+		</div>
+
+
+	
+
+		<section class="modal" id="modal">	
+			<div class="modal_wrap">
+				<div class="block_head">	
+					<div class="title"><span class="green">Оставьте</span> заявку!</div>
+					<div class="text">Оставьте заявку и наш менеджер <span class="green">свяжется с вами!</span><br>
+						Обсудим с вами все детали <span class="green">внедрения платформы в вашу компанию</span>
+					</div>				
+				</div>
+				<div class="modal_logo">
+					<img src="images/logo.svg" alt="">
+				</div>
+				<form class="modal_form">
+					<div class="line">
+						<div class="field">
+							<input type="text" placeholder="Ваше имя">
+						</div>
+						<div class="field">
+							<input type="tel" placeholder="Ваш Телефон">
+						</div>
+						<div class="checkbox-mob">
+							<input type="checkbox" class="custom-checkbox" id="chek5" checked="">
+							<label for="chek5" class="form_agree-text">Соглашаюсь с обработкой своих персональных данных и с политикой конфиденциальности</label>
+						</div>
+						<button type="submit">Отправить</button>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" class="custom-checkbox" id="chek6" checked="">
+						<label for="chek6" class="form_agree-text">Соглашаюсь с обработкой своих персональных данных и с <a href="#">политикой конфиденциальности</a></label>
+					</div>
+				</form>	 
+			</div>
+		</section>
+
+
+	</div>	
+
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	
+
+</body>
+
+</html>
